@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2C8FB8415E09161009D0EA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C8FB8315E09161009D0EA3 /* UIKit.framework */; };
+		E2C8FB8615E09161009D0EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C8FB8515E09161009D0EA3 /* Foundation.framework */; };
+		E2C8FB8815E09161009D0EA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C8FB8715E09161009D0EA3 /* CoreGraphics.framework */; };
+		E2C8FB8E15E09161009D0EA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C8FB8C15E09161009D0EA3 /* InfoPlist.strings */; };
+		E2C8FB9015E09161009D0EA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C8FB8F15E09161009D0EA3 /* main.m */; };
+		E2C8FB9415E09161009D0EA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C8FB9315E09161009D0EA3 /* AppDelegate.m */; };
+		E2C8FB9715E09161009D0EA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C8FB9615E09161009D0EA3 /* ViewController.m */; };
+		E2C8FB9A15E09161009D0EA3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C8FB9815E09161009D0EA3 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2C8FB7F15E09161009D0EA3 /* EyesEverywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyesEverywhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C8FB8315E09161009D0EA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2C8FB8515E09161009D0EA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2C8FB8715E09161009D0EA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2C8FB8B15E09161009D0EA3 /* EyesEverywhere-Info.plist */ = {isa = PBXFileReference; path = "EyesEverywhere-Info.plist"; sourceTree = "<group>"; };
+		E2C8FB8D15E09161009D0EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2C8FB8F15E09161009D0EA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2C8FB9115E09161009D0EA3 /* EyesEverywhere-Prefix.pch */ = {isa = PBXFileReference; path = "EyesEverywhere-Prefix.pch"; sourceTree = "<group>"; };
+		E2C8FB9215E09161009D0EA3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2C8FB9315E09161009D0EA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2C8FB9515E09161009D0EA3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E2C8FB9615E09161009D0EA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2C8FB9915E09161009D0EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C8FB7C15E09161009D0EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C8FB8415E09161009D0EA3 /* UIKit.framework in Frameworks */,
+				E2C8FB8615E09161009D0EA3 /* Foundation.framework in Frameworks */,
+				E2C8FB8815E09161009D0EA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C8FB7415E09161009D0EA3 = {
+			isa = PBXGroup;
+			children = (
+				E2C8FB8915E09161009D0EA3 /* EyesEverywhere */,
+				E2C8FB8215E09161009D0EA3 /* Frameworks */,
+				E2C8FB8015E09161009D0EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C8FB8015E09161009D0EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8FB7F15E09161009D0EA3 /* EyesEverywhere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C8FB8215E09161009D0EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8FB8315E09161009D0EA3 /* UIKit.framework */,
+				E2C8FB8515E09161009D0EA3 /* Foundation.framework */,
+				E2C8FB8715E09161009D0EA3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C8FB8915E09161009D0EA3 /* EyesEverywhere */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8FB9215E09161009D0EA3 /* AppDelegate.h */,
+				E2C8FB9315E09161009D0EA3 /* AppDelegate.m */,
+				E2C8FB9515E09161009D0EA3 /* ViewController.h */,
+				E2C8FB9615E09161009D0EA3 /* ViewController.m */,
+				E2C8FB9815E09161009D0EA3 /* ViewController.xib */,
+				E2C8FB8A15E09161009D0EA3 /* Supporting Files */,
+			);
+			path = EyesEverywhere;
+			sourceTree = "<group>";
+		};
+		E2C8FB8A15E09161009D0EA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8FB8B15E09161009D0EA3 /* EyesEverywhere-Info.plist */,
+				E2C8FB8C15E09161009D0EA3 /* InfoPlist.strings */,
+				E2C8FB8F15E09161009D0EA3 /* main.m */,
+				E2C8FB9115E09161009D0EA3 /* EyesEverywhere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C8FB7E15E09161009D0EA3 /* EyesEverywhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C8FB9D15E09161009D0EA3 /* Build configuration list for PBXNativeTarget "EyesEverywhere" */;
+			buildPhases = (
+				E2C8FB7B15E09161009D0EA3 /* Sources */,
+				E2C8FB7C15E09161009D0EA3 /* Frameworks */,
+				E2C8FB7D15E09161009D0EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyesEverywhere;
+			productName = EyesEverywhere;
+			productReference = E2C8FB7F15E09161009D0EA3 /* EyesEverywhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C8FB7615E09161009D0EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2C8FB7915E09161009D0EA3 /* Build configuration list for PBXProject "EyesEverywhere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2C8FB7415E09161009D0EA3;
+			productRefGroup = E2C8FB8015E09161009D0EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C8FB7E15E09161009D0EA3 /* EyesEverywhere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C8FB7D15E09161009D0EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C8FB8E15E09161009D0EA3 /* InfoPlist.strings in Resources */,
+				E2C8FB9A15E09161009D0EA3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C8FB7B15E09161009D0EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C8FB9015E09161009D0EA3 /* main.m in Sources */,
+				E2C8FB9415E09161009D0EA3 /* AppDelegate.m in Sources */,
+				E2C8FB9715E09161009D0EA3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2C8FB8C15E09161009D0EA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C8FB8D15E09161009D0EA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2C8FB9815E09161009D0EA3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C8FB9915E09161009D0EA3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C8FB9B15E09161009D0EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2C8FB9C15E09161009D0EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C8FB9E15E09161009D0EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EyesEverywhere/EyesEverywhere-Prefix.pch";
+				INFOPLIST_FILE = "EyesEverywhere/EyesEverywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2C8FB9F15E09161009D0EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EyesEverywhere/EyesEverywhere-Prefix.pch";
+				INFOPLIST_FILE = "EyesEverywhere/EyesEverywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C8FB7915E09161009D0EA3 /* Build configuration list for PBXProject "EyesEverywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C8FB9B15E09161009D0EA3 /* Debug */,
+				E2C8FB9C15E09161009D0EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C8FB9D15E09161009D0EA3 /* Build configuration list for PBXNativeTarget "EyesEverywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C8FB9E15E09161009D0EA3 /* Debug */,
+				E2C8FB9F15E09161009D0EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C8FB7615E09161009D0EA3 /* Project object */;
+}
