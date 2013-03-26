@@ -10,10 +10,17 @@
 
 @class ViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    NSString *userName;
+    NSString *userNeww;
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+
+@property (nonatomic, strong) NSString *userName;
+@property (nonatomic, strong) NSString *userNeww;
 
 @end
